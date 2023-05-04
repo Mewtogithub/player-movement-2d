@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class CoinCounter : MonoBehaviour
 {
+    public float coinAmount;
     public Text TextOfCoin;
     private void Update()
     {
